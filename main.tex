@@ -9,32 +9,32 @@
     \tableofcontents    
     \newpage
     \setlength{\parskip}{1em}   
-    % \setstretch{2}
+    \setstretch{2}
     
     \section{Abstract}
     Nothing yet.
     \section{Introduction}
     As is well-known to all of us, carbon dioxide (aka. $\ce{CO2}$ in the following) accounts for roughly \label{data} of the air, and $75\%$ of the emission in the air we breathe \label{cite}. While there are a number of benefits $\ce{CO2}$ brings to human, such as helping plants to grow as necessity for photosynthesis, it actually does relatively more harm, including contributing to global warming, extreme weather conditions, ocean acidification, sea levels rise and, consequently, disruptions to ecosystems, far outweighing the benefits it brings.
 
-    For the time being, as the development of technology and the improvement of human's way of life and standard of living, particularly the increasing number of automobiles on the road, the emission of $\ce{CO2}$ has significantly increased year by year, 
+    For the time being, as the advancement of technology and the improvement of human's way of life and standard of living, particularly the increasing number of automobiles on the road and growing industrial demand, the emission of $\ce{CO2}$ has significantly increased year by year, 
     $\ce{CO2}$ problem is becoming increasingly serious and urgent. Hence, in this dissertation, I will introduce, generally in the literature review, the status quo and impact of $\ce{CO2}$, and people's strategies for coping with this phenomenon; and then, concentrate on the prediction of $\ce{CO2}$ emissions and the relationship between $\ce{CO2}$ and global warming, by estabilishing several mathematical models based on data I've found.
         
     \section{Literature Review}
     \subsection{Introduction}
-    In this section, I will provide an overview of the project by referencing preview studies, in order to give a general introduction to $\ce{CO2}$. First of all, I will introduce the $\ce{CO2}$ emission condition, including the general trend and the. % to be perfect.
+    In this section, I will provide an overview of the project by referencing previous studies, in order to give a general introduction to $\ce{CO2}$'s effect. Firstly, I will introduce the current $\ce{CO2}$ emission condition by analyzing ppm value and other factors while providing specific annual data. Secondly, I will focus on elaborating the influences of \ce{CO2} emission in many aspects such as ecosystem and mankind. Last, I will introduce human's response to  $\ce{CO2}$ emission, including actions of organizations and nations.
     
-    \subsection{$\mathbf{CO_2}$ emissions}
+    \subsection{Emission Condition}
     
-    Before Industrial Revolution, the concentration of $\ce{CO2}$ in atmosphere was approximately $280$ parts per million (abbr. ppm in the following) \autocite{neftel_evidence_1985}. The value exploded to $377.7$ ppm in 2004, a striking rise of roughly $35\%$ \autocite{dr_pieter_tans_trends_2022}. More surprisingly, according to researchers from National Oceanographic and Atmospheric Administration (abbr. NOAA in the following) and Scripps Institution of Oceanography, the monthly mean $\ce{CO2}$ concentration level peaked at $421$ ppm in May 2022, which reflected an increasingly serious condition at present \autocite{national_oceanographic_and_atmospheric_administration_carbon_2022}. Additionally, an Organisation for Economic Co-Operations and Development report predicts a $\ce{CO2}$ level of $685$ ppm by 2050, indicating that the prospect of dealing with $\ce{CO2}$ emission is not optimistic \autocite{organisation_for_economic_co-operations_and_development_oecd_2012}.
+    Before Industrial Revolution, the concentration of $\ce{CO2}$ in atmosphere was approximately $280$ parts per million (abbr. ppm in the following) \autocite{neftel_evidence_1985}. The value exploded to $377.7$ ppm in 2004, a striking rise of roughly $35\%$ \autocite{dr_pieter_tans_trends_2022}. More surprisingly, according to researchers from National Oceanographic and Atmospheric Administration and Scripps Institution of Oceanography, the monthly mean $\ce{CO2}$ concentration level peaked at $421$ ppm in May 2022, which reflected an increasingly serious condition at present \autocite{national_oceanographic_and_atmospheric_administration_carbon_2022}. Additionally, an Organisation for Economic Co-Operations and Development report predicts a $\ce{CO2}$ level of $685$ ppm by 2050, indicating that the prospect of dealing with $\ce{CO2}$ emission is not optimistic \autocite{organisation_for_economic_co-operations_and_development_oecd_2012}.
 
     As for specific average $\ce{CO2}$ emission changed annually, measurements from Mauna Loa Observatory are listed in \hyperref[emission]{Table \ref*{emission}} and visualized in \hyperref[emission_line]{Figure \ref*{emission_line}}, in which we can observe the steady increase of the amount of $\ce{CO2}$ emission \autocite{national_oceanographic_and_atmospheric_administration_gml_data_notitle_2023}.
     \begin{figure}[h]
         \centering
-        \includegraphics[width=\linewidth]{img/emission.png}
+        \includegraphics[width=1\linewidth]{img/emission.png}
         \captionof{table}{Average $\ce{CO2}$ emission annually}
         \label{emission}
     \end{figure}
-    \begin{figure}[h]
+    \begin{figure}[H]
         \centering
         \includegraphics[width=\linewidth]{img/emission_line.png}
         \caption{$\ce{CO2}$ emission line chart}
@@ -43,9 +43,9 @@
     
     Apart from ppm value as elaborated above, there are other aspects discribing the emissions of $\ce{CO2}$ which is quite worth noting. As International Energy Agency reports, in 2022, the emission growth is mainly caused by extreme weather which brings about more cooling and heating demand. Despite that, it is reported that industrial emissions declined by $1.7\%$, driven by a reduction in cement and steel production in China. A good news would be the unprecedented advancement of new energy technology, including solar PV and wind energy, which reduce the $\ce{CO2}$ emissions to some extent \autocite{iea_co2_2023}.
     
-    \subsection{Effects of $\mathbf{CO_2}$ on environment}
+    \subsection{Effects}
     \subsubsection{Growth of Plants}
-    As expected, $\ce{CO2}$ does play an irreplaceable role in stimulating overall biomass of plants, together with increasing the soil C:N ratio and microbial $\ce{N}$ contents \autocite{de_graaff_interactions_2006}. At the same time, it is widely acknowledged and verified by many studies that the increase of atmospheric $\ce{CO2}$ concentrations also leads to the global photosynthesis rise \autocite{qi-de_effects_1992}\autocite{campbell_effects_1988}\autocite{kramer_carbon_1981}. Other benefits of $\ce{CO2}$ include higher plant water use efficiency due to reduction in transpiration, which results in less water comsumption \autocite{prior_review_2011}. Nevertheless, $\ce{CO2}$ may inhibit plant growth to some extent. For instant, higher $\ce{CO2}$ concentration may bring about reduction of concentrations of crucial nutrients such as nitrogen, phosphorus and protein \autocite{conroy_influence_1992}.
+    As expected, $\ce{CO2}$ does play an irreplaceable role in stimulating overall biomass of plants, together with increasing the soil C:N ratio and microbial $\ce{N}$ contents \autocite{de_graaff_interactions_2006}. At the same time, it is widely acknowledged and verified by many studies that the increase of atmospheric $\ce{CO2}$ concentrations also leads to the global photosynthesis rise \autocite{qi-de_effects_1992}\autocite{campbell_effects_1988}\autocite{kramer_carbon_1981}. Other benefits of $\ce{CO2}$ include higher plant water use efficiency due to reduction in transpiration, which results in less water comsumption \autocite{prior_review_2011}. Nevertheless, $\ce{CO2}$ may inhibit plant growth to some extent. For instance, higher $\ce{CO2}$ concentration may bring about reduction of concentrations of crucial nutrients such as nitrogen, phosphorus and protein \autocite{conroy_influence_1992}.
     \subsubsection{Global Warming}
     As one of the greenhouse gas, $\ce{CO2}$ is widely being considered as the main driving factor that causes the phenomenon of global warming. Specifically, when the surface of earth automatically dissipate heat to the space in the form of electromagnetic waves, $\ce{CO2}$ can serve to absorb a certain wavelength range of those waves. In this way, it can help trap heat obtained from the sunlight and thus increase global temperature \autocite{seim_influence_2020}. Scientists have found the positive correlation, or even a simple near-linear relation, between $\ce{CO2}$ and global temperature \autocite{matthews_proportionality_2009}.
 
@@ -57,15 +57,15 @@
     \subsubsection{Mankind}
     In addition to environmental influence, the impact of elevated $\ce{CO2}$ concentration on human beings is also noteworthy. In agricultural aspect, while it is true that extreme weathers like drought may contribute to a decline in crop yield \autocite{sun_does_2023}, it is found that the promoting effect of $\ce{CO2}$ to plant growth outweighs its harm, that is to say, in general, the crop yield is positively correlated to the concentration of $\ce{CO2}$ within a certain range \autocite{yang_rice_2024}.
 
-    Regarding human health, 
+    Regarding human health, firstly, it has been found that the growing $\ce{CO2}$ concentration can have adverse effects on the nutrient content in food, specifically a decline of $5-15\%$ in protein and mineral concentrations and even up to $30\%$ in B vitamins \autocite{loladze_hidden_2014}\autocite{myers_increasing_2014}\autocite{zhu_carbon_2018}. On top of that, research indicates that elevations in ambient $\ce{CO2}$ would pose direct risks for human health, resulting in potential health problems including inflammation, bone demineralization and endothelial dysfunction among others \autocite{jacobson_direct_2019}.
     
-
-
-
+    \subsection{Human's response}
+    Confronted with such pressing issue, many organizations have made great efforts to inhibit the increase of $\ce{CO2}$ concentration. For example, in Katowice Climate Change Conference, 15 international organizations, including United Nations Framework Convention on Climate Change (UNFCCC), have made their announcements of reducing carbon emmissions to make climate neutral by actions of installing solar photovoltaic systems and efficient cooling systems, reducing air travel and so on \autocite{unfccc_15_2018}. Nations are taking actions as well. Take China as an example, it has made targets to reach peak carbon emissions by 2030 and achieve carbon neutrality by 2060 \autocite{xinhua_responding_2021}.
     
-    \subsection{Human's response to $\mathbf{CO_2}$ problem}
     \subsection{Conclusion}
+    To conclude, currently, $\ce{CO2}$ emissions have increased significantly compared with pre-industrial times and are steadily rising annually. While elevated levels of $\ce{CO2}$ can promote plant growth, it may also bring about catastrophes such as global warming and ocean acidification. As a result, the global climates are disrupted and extreme weather events are more frequent. It may then threaten the survival of animals and plants, thereby jeopardizing biodiversity and harming sustainability. As for human, though rising $\ce{CO2}$ concentration helps with the algriculture development to some extent, unfortunately, studies reveal that it may pose considerable potential health problems for human beings. Therefore, organizations and nations have made plans to reduce carbon emission, and people are pulling together to address the problem by means like developing renewable energy sources.
 
+    
     \newpage
     \section{References}
     \printbibliography[heading=none]
