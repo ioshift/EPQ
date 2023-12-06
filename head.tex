@@ -28,9 +28,10 @@
 \usepackage{placeins}
 \usepackage{wrapfig}
 \usepackage{csquotes}
-% \usepackage[style=authoryear-ibid,backend=biber]{biblatex}
-% \addbibresource{EPQ.bib}
-\usepackage{natbib}
+\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
+\usepackage{indentfirst}
+\addbibresource{EPQ.bib}
+% \usepackage{natbib}
 
 % layout
 \pagestyle{fancy}
@@ -38,13 +39,13 @@
 \rhead{Page \thepage\ of \pageref*{LastPage}}
 \fancyfoot[C]{\thepage}
 \setlength{\headheight}{14.5pt}
-\setlength{\parindent}{0pt}
-\setlength{\parindent}{0em}
+\raggedright
 
 % title
 \author{Chenyu Shi}
 \date{}
-\title{\Huge{\bf{\ntitle}}}
+\title{{\bf{\ntitle}}}
+\setlength{\parindent}{2em}
 
 % Others
 
@@ -54,56 +55,3 @@
   linkcolor=red,
   citecolor=black
 }
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%% math %%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Theorems
-\theoremstyle{definition}
-\newtheorem{thm}{Theorem}[section]
-\newtheorem{axiom}[thm]{Axiom}
-\newtheorem{conjecture}[thm]{Conjecture}
-\newtheorem{cor}[thm]{Corollary}
-\newtheorem{defi}[thm]{Definition}
-\newtheorem{eg}[thm]{Example}
-\newtheorem{lemma}[thm]{Lemma}
-\newtheorem{notation}[thm]{Notation}
-\newtheorem{prop}[thm]{Proposition}
-
-\newtheorem{question}{Question}
-
-\newtheorem*{aim}{Aim}
-\newtheorem*{assumption}{Assumption}
-\newtheorem*{claim}{Claim}
-\newtheorem*{ex}{Exercise}
-\newtheorem*{fact}{Fact}
-\newtheorem*{law}{Law}
-\newtheorem*{remark}{Remark}
-\newtheorem*{rrule}{Rule}
-\newtheorem*{warning}{Warning}
-
-
-
-\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
-
-% Special sets
-\newcommand{\C}{\mathbf{C}}
-\newcommand{\R}{\mathbf{R}}
-\newcommand{\Q}{\mathbf{Q}}
-\newcommand{\Z}{\mathbf{Z}}
-\newcommand{\N}{\mathbf{N}}
-\newcommand{\F}{\mathbf{F}}
-\setlength{\parindent}{0em}
-% Symbols
-\newcommand{\abs}[1]{\left\lvert #1\right\rvert}
-\newcommand{\floor}[1]{\left\lfloor #1\right\rfloor}
-\newcommand{\ceil}[1]{\left\lceil #1\right\rceil}
-\newcommand{\set}[1]{\{#1\}}
-\newcommand{\limit}[2]{\lim\limits_{#1\to #2}}
-\renewcommand{\d}{\mathop{}\!\mathrm{d}} 
-\renewcommand{\vec}[1]{\boldsymbol{\mathbf{#1}}}
-\renewcommand{\P}{\mathrm{P}}
-\DeclareMathOperator{\lcm}{lcm}
-\DeclareMathOperator{\E}{E}
-\DeclareMathOperator{\Var}{Var}
