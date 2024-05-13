@@ -11,7 +11,7 @@
 \usepackage{footnote}
 \usepackage{tablefootnote}
 \usepackage{makecell}
-\usepackage[letterpaper, left=2cm,right=2cm,top=3cm,bottom=2cm]{geometry}
+\usepackage[letterpaper, left=2cm,right=2cm,top=3.8cm,bottom=1.5cm]{geometry}
 \usepackage{longtable}
 \usepackage{multirow}
 \usepackage{array}
@@ -21,6 +21,7 @@
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{subcaption}
+\usepackage{times}
 \usepackage{graphicx}
 \usepackage[toc,page]{appendix}
 \usepackage[version=4]{mhchem}
@@ -42,10 +43,21 @@
 \raggedright
 
 % title
-\author{Chenyu Shi}
-\date{}
-\title{{\bf{\ntitle}}}
-\setlength{\parindent}{2em}
+\newcommand{\epqtitle}{
+    \setlength{\parindent}{0em}
+    {\fontsize{24}{28}\selectfont
+    \vspace*{3\baselineskip}
+        \textbf{%
+        EXTENDED PROJECT QUALIFICATION\\[1em]
+        EPQ 2023\fontsize{16}{20}\selectfont\\[4em]
+        Pupil name: Chenyu Shi\\[4em]
+        EPQ Title: How does carbon dioxide affect human's life?\\[6em]
+        Center Number: 95316\\[2em]
+        Candidate Number: 5100
+        }
+    }
+    \setlength{\parindent}{2em}
+}
 
 % Others
 
